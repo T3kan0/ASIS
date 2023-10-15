@@ -69,7 +69,7 @@ if authentication_status:
     with st.spinner('Wait for it...'):
         time.sleep(3)
 
-    dat = 'complete_data.RData'
+    dat = 'Faculty_Reports2.0/complete_data.RData'
     @st.cache_data
     def data_read():
         r_dt = pyreadr.read_r(dat)
