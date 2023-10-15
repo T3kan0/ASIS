@@ -111,7 +111,7 @@ if authentication_status:
     
     st.sidebar.markdown("<h2 style='text-align: center; color: darkred;'>About A-STEP</h2>", unsafe_allow_html=True)
 
-    with open('style2.css') as f:
+    with open('Faculty_Reports2.0/style2.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
         
     exp = st.sidebar.expander(':blue[Read More:]')
@@ -175,7 +175,7 @@ if authentication_status:
     plt.bar(dt['Year'], dt['Avg (%)'], color ='maroon',
         width = 0.4)
     plt.savefig('png.png')
-    with open('style1.css') as fl:
+    with open('Faculty_Reports2.0/style1.css') as fl:
         st.markdown(f'<style>{fl.read()}</style>', unsafe_allow_html=True)
         
     col1, col2, col3 = st.columns(3, gap='small')
