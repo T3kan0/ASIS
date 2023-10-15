@@ -5,5 +5,5 @@ numpy
 datetime
 fpdf
 seaborn
-matplotlib.pyplot
-plotly.express
+matplotlib
+plotly
