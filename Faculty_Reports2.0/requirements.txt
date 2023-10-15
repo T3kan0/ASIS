@@ -1,2 +1,10 @@
 pyreadr
 streamlit_authenticator
+scipy
+numpy
+datetime
+fpdf
+glob
+seaborn
+matplotlib.pyplot
+plotly.express
