@@ -54,7 +54,7 @@ credentials = {
     }
 }
 
-with open('style1.css') as f:
+with open('https://github.com/T3kan0/ASIS/blob/main/Faculty_Reports2.0/style1.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
     authenticator = stauth.Authenticate(credentials,
