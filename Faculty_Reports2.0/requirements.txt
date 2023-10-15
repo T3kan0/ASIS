@@ -1,1 +1,2 @@
 pyreadr
+streamlit_authenticator
