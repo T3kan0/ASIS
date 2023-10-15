@@ -234,7 +234,7 @@ if authentication_status:
         # set style and size of font
         # that you want in the pdf
         pdf.set_font("Times", 'B', size = 13)
-        pdf.image('ctl-10yr_rgb-01.jpeg', x = 70, y = 10, w = 80, h = 40, type = 'PNG')
+        pdf.image('Faculty_Reports2.0/ctl-10yr_rgb-01.jpeg', x = 70, y = 10, w = 80, h = 40, type = 'PNG')
         pdf.cell(0, 5, txt = '', ln =1)
         pdf.cell(0, 5, txt = '', ln =1)
         pdf.cell(0, 5, txt = '', ln =1)
