@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  19 08:37:00 2021
-
-@author: nt4-nani
-"""
-
-
 import pyreadr
 import streamlit as st
 import pandas as pd
