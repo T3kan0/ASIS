@@ -2015,7 +2015,7 @@ not attend any tutorial sessions. The practical significance of the difference i
         #pdf.set_xy(70, 262)
         #pdf.cell(50, 15, txt = 'www.ufs.ac.za', border = 0, ln=7, align = 'C')
         pdf.image('Faculty_Reports2.0/kindpng_2007834.jpeg', x = 10, y = 256, w = 189, h =3, type = 'PNG')
-        pdf.image('ufs.jpeg', x = 175, y = 261, w = 30, h =30, type = 'JPEG')
+        pdf.image('Faculty_Reports2.0/ufs.jpeg', x = 175, y = 261, w = 30, h =30, type = 'JPEG')
         pdf.output('A_STEP_IR_'+fac+'_'+term+'_'+camp+'_2019_2022.pdf')
 
         removing_files = glob.glob('/Users/tekanombonani/Desktop/Faculty_Reports/*.png')
