@@ -15,7 +15,7 @@ def data_read(dat):
     return df
 def dataSelector(fac, term, camp):
 
-    x = 'complete_data.RData'
+    x = 'Faculty_Reports2.0/complete_data.RData'
     df = data_read(x)
     df['FACULTY'] = df['FACULTY'].replace(['MHSC'],'HEALTH SCIENCES')
     df['FACULTY'] = df['FACULTY'].replace(['MLAW'],'LAW')
