@@ -63,7 +63,7 @@ over time plays an important role for student success. Towards the goal of seein
               
 def dataSelector1(fac, term, mod, camp):
 
-    x = 'complete_data.RData'
+    x = 'Faculty_Reports2.0/complete_data.RData'
     df = data_read(x)
     df['FACULTY'] = df['FACULTY'].replace(['MHSC'],'HEALTH SCIENCES')
     df['FACULTY'] = df['FACULTY'].replace(['MLAW'],'LAW')
