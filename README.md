@@ -25,3 +25,6 @@ You will need to install the following software on your system in order to run/e
 
 ### About the Data 💾 
 The data used here was collected between 2019 and the first term of 2022, by the tutorial project of students on the University of Free State. The data was collected and stored weekly, where I have access to perform statistical analysis and reporting.
+
+The Web Application has successfully been deployed on the streamlit cloud, users can access it here: 
+https://kxyuzlhdqujmaajlisngma.streamlit.app/
