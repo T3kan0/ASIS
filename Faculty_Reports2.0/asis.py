@@ -1588,7 +1588,7 @@ not attend any tutorial sessions. The practical significance of the difference i
             plt.text(x=1.0,y=Aavg+3,s = '%.2f'%Aavg+'%', fontsize=10)
             plt.text(x=0.0,y=Bavg+3,s = '%.2f'%Bavg+'%', fontsize=10)
             ax6.set_title('Student Final Marks Per Independent Group.')
-            plt.savefig('ttest_'+fac+'_'+i+'_'+term+'.png')
+            plt.savefig('ttest_'+fac+'_'+str(i)+'_'+term+'.png')
             plt.close()
             fig7, ax7 = plt.subplots()
 
@@ -1612,7 +1612,7 @@ not attend any tutorial sessions. The practical significance of the difference i
             ax7.set_ylim(0, 100)
             ax7.set_ylabel('Final Marks (%)')
             ax7.set_title('Student Final Marks Per Independent Group.')
-            plt.savefig('anova_'+fac+'_'+i+'_'+term+'.png')
+            plt.savefig('anova_'+fac+'_'+str(i)+'_'+term+'.png')
             plt.close()
             pdf.add_page()
             pdf.set_font('Arial','B',10.0)
@@ -1680,11 +1680,11 @@ not attend any tutorial sessions. The practical significance of the difference i
                 pdf.multi_cell(0, 5, txt = str(s4), align = 'L', fill = False)
                 pdf.cell(0, 5, txt = '', ln =22, align = 'C')
     
-            s5 = 'anova_'+fac+'_'+i+'_'+term+'.png'
-            s6 = 'ttest_'+fac+'_'+i+'_'+term+'.png'
+            s35 = 'anova_'+fac+'_'+i+'_'+term+'.png'
+            s36 = 'ttest_'+fac+'_'+i+'_'+term+'.png'
             pdf.cell(0, 5, txt = '', ln =22, align = 'C')
-            pdf.image(str(s6), x = 20, y = 50, w = 80, h = 60, type = 'PNG')
-            pdf.image(str(s5), x = 105, y = 50, w = 80, h = 60, type = 'PNG')
+            pdf.image(str(s36), x = 20, y = 50, w = 80, h = 60, type = 'PNG')
+            pdf.image(str(s35), x = 105, y = 50, w = 80, h = 60, type = 'PNG')
             pdf.ln(0.25)
             pdf.cell(0, 5, txt = '', ln =20, align = 'C')
             pdf.ln(0.25)
