@@ -2018,8 +2018,7 @@ not attend any tutorial sessions. The practical significance of the difference i
         pdf.image('Faculty_Reports2.0/ufs.jpeg', x = 175, y = 261, w = 30, h =30, type = 'JPEG')
         pdf.output('A_STEP_IR_'+fac+'_'+term+'_'+camp+'_2019_2022.pdf')
 
-        removing_files = Path(__file__).parent / '*.png'
-        #removing_files = glob.glob('/Users/tekanombonani/Desktop/Faculty_Reports/*.png')
+        removing_files = glob.glob('*.png')
         for i in removing_files:
             os.remove(i)
     
