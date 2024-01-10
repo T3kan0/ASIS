@@ -1680,8 +1680,8 @@ not attend any tutorial sessions. The practical significance of the difference i
                 pdf.multi_cell(0, 5, txt = str(s4), align = 'L', fill = False)
                 pdf.cell(0, 5, txt = '', ln =22, align = 'C')
     
-            s35 = 'anova_'+fac+'_'+i+'_'+term+'.png'
-            s36 = 'ttest_'+fac+'_'+i+'_'+term+'.png'
+            s35 = 'anova_'+fac+'_'+str(i)+'_'+term+'.png'
+            s36 = 'ttest_'+fac+'_'+str(i)+'_'+term+'.png'
             pdf.cell(0, 5, txt = '', ln =22, align = 'C')
             pdf.image(str(s36), x = 20, y = 50, w = 80, h = 60, type = 'PNG')
             pdf.image(str(s35), x = 105, y = 50, w = 80, h = 60, type = 'PNG')
